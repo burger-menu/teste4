@@ -1,0 +1,423 @@
+:root {
+    --color-background: #fffdf7;
+    --color-black: #212121;
+    --color-black-heavy: #000000;
+    --color-text: #4f4f4f;
+    --color-text-out: #90908e;
+    --color-primary: #ffbf00;
+    --color-secondary: #fff2cc;
+    --color-white: #ffffff;
+    --color-red: #e50914;
+    --color-trash: #e74c3c;
+    --color-green: #2ecc71;
+    --color-separate: #cccccc;
+    --color-bg: #f4c949;
+}
+
+@media (max-width: 1199px) {
+
+    ::-webkit-scrollbar {
+        width: 0px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: transparent;
+    }
+
+    .container-menu {
+        overflow-x: auto;
+        overflow-y: hidden;
+        display: flex;
+        padding-bottom: 5px;
+    }
+
+    #cart-shopping-remove {
+        display: none;
+    }
+
+    .btn-icon {
+        padding-right: 30px;
+    }
+
+}
+
+/* Desktop (col-lg) 992px+ */
+@media (min-width: 992px) {
+
+}
+
+/* Desktop e Tablets (col-md) 768px a 991px */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .navbar-toggler-icon {
+        padding-top: 5px;
+    }
+
+    .navbar-collapse {
+        background-color: var(--color-secondary);
+        padding: 20px 0px;
+        text-align: center;
+        border-radius: 40px;
+    }
+
+    .navbar-collapse .btn-white {
+        margin-top: 20px;
+    }
+
+    .navbar-collapse .btn-icon {
+        padding-right: 20px;
+    }
+
+    .navbar-collapse .btn-icon span.icon {
+        display: none;
+    }
+
+    .col-sm-6 {
+        -webkit-box-flex: 0;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .card-item .img-produto img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .card-banner {
+        height: 420px;
+        width: 420px;
+        top: 0px;
+    }
+
+    #banner img {
+        width: 480px;
+        top: 60px;
+        right: -10px;
+    }
+
+    .card-case {
+        bottom: 190px;
+    }
+
+    .banner {
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+
+    .servicos, .depoimentos, .reserva  {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .cardapio {
+        padding-bottom: 50px;
+    }
+
+    .card-depoimentos {
+        height: 300px;
+        width: 300px;
+    }
+
+    #depoimentos img {
+        width: 350px;
+        right: -25px;
+    }
+
+    .card-reserva {
+        height: 400px;
+        width: 250px;
+    }
+
+    .reserva .img-banner img {
+        top: 114px;
+        right: -10px;
+    }
+
+}
+
+/* Tablets (col-sm) 576px a 767px */
+@media (min-width: 576px) and (max-width: 767px) {
+
+}
+
+/* Tablets e Celulares (col) 0px a 767px */
+@media (max-width: 767px) {
+
+    .burger-mobile {
+        display: block;
+        width: 350px;
+        position: absolute;
+        right: 0;
+    }
+
+    .no-mobile {
+        display: none!important;
+    }
+
+    .col-one {
+        padding-left: 35px!important;
+        padding-right: 35px!important;
+    }
+
+    .navbar-toggler-icon {
+        padding-top: 5px;
+    }
+
+    .navbar-collapse {
+        background-color: var(--color-secondary);
+        padding: 20px;
+        text-align: center;
+        border-radius: 40px;
+    }
+
+    .navbar-collapse .btn-white {
+        margin-top: 20px;
+    }
+
+    .navbar-collapse .btn-icon {
+        padding-right: 20px;
+    }
+
+    .navbar-collapse .btn-icon span.icon {
+        display: none;
+    }
+
+    .banner {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .text-banner h1 {
+        font-size: 36px;
+    }
+
+    .text-banner p {
+        font-size: 18px;
+    }
+
+    .btn-yellow, .btn-white {
+        padding: 12px 18px;
+        font-size: 18px;
+    }
+
+    .btn-icon-left span.icon-left {
+        width: 43px;
+        height: 43px;
+        margin-left: -56px;
+    }
+
+    .btn-icon-left {
+        padding-left: 63px!important;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .servicos {
+        padding-bottom: 50px;
+    }
+
+    .cardapio {
+        padding-bottom: 50px;
+    }
+
+    .container-menu {
+        overflow-x: auto;
+        overflow-y: hidden;
+        display: flex;
+        padding-bottom: 5px;
+    }
+
+    .img-produto {
+        position: absolute;
+        left: 15px
+    }
+
+    .card-item {
+        height: 110px;
+        padding-left: 110px;
+        justify-content: center;
+        align-items: start;
+    }
+
+    .card-item .img-produto img {
+        width: 80px;
+    }
+
+    .title-produto {
+        margin-top: 0px!important;
+        height: 30px!important;
+        width: 100%;
+        text-align: left!important;
+    }
+
+    .price-produto {
+        margin-bottom: 0px!important;
+        margin-top: 0px!important;
+        font-size: 22px!important;
+    }
+
+    .card-item .add-carrinho {
+        margin-top: 5px;
+    }
+
+    #itensCardapio .mb-5 {
+        margin-bottom: 15px!important;
+    }
+
+    .depoimentos {
+        padding-bottom: 50px;
+    }
+
+    .reserva {
+        padding-bottom: 50px;
+    }
+
+    .card-secondary {
+        padding: 45px;
+        border-radius: 50px;
+    }
+
+    .container-logo-footer {
+        justify-content: center;
+    }
+
+    .container-texto-footer p {
+        text-align: center;
+    }
+
+    .container-redes-footer {
+        margin-top: 40px;
+        margin-bottom: 50px;
+        justify-content: center;
+    }
+
+    footer .formas-pagamento p {
+        font-size: 14px;
+    }
+
+    footer .formas img {
+        width: 80px;
+    }
+
+    .formas-text {
+        font-size: 18px;
+    }
+
+    .formas-pagamento-js {
+        width: 50px;
+    }
+
+    .title-carrinho {
+        font-size: 18px;
+    }
+
+    .modal-full {
+        padding: 32px 32px 20px 32px;
+    }
+
+    .modal-full .item-carrinho {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .modal-full .img-produto {
+        position: relative;
+        left: 0;
+    }
+
+    .modal-full .img-produto img {
+        width: 50px;
+    }
+
+    .modal-full .dados-produto {
+        padding-left: 15px;
+        padding-right: 15px;
+        display: grid;
+    }
+
+    .modal-full .title-produto, .modal-full .price-produto {
+        font-size: 16px!important;
+    }
+
+    .modal-full .add-numero-itens {
+        padding: 2px 10px;
+    }
+
+    .modal-full .form-control {
+        font-size: 16px;
+    }
+
+    .container {
+        padding-right: 9px !important;
+        padding-left: 9px !important;
+    }
+
+    .btn-remove {
+        border: 1px solid var(--color-trash);
+        font-size: 14px;
+        padding: 5px 10px;
+        border-radius: 8px;
+        margin-left: 8px;
+    }
+
+    div.forma-pgto {
+        padding-top: 5px;
+    }
+
+    .layout-op-retirada, .layout-op-forma-pgto {
+        height: 72px;
+        gap: 8px;
+        padding: 0 10px;
+    }
+
+    .layout-op-forma-pgto .text h3 {
+        color: var(--color-black);
+        font-size: 13px !important;
+    }
+
+    .layout-op-retirada .icon i, .layout-op-retirada .icon i::before, .layout-op-forma-pgto .icon i, .layout-op-forma-pgto .icon i::before {
+        font-size: 18px;
+    }
+
+    div.forma-pgto h3,
+    .info-entrega .line h3 {
+        font-size: 18px !important;
+    }
+
+    .toast {
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 575px) {
+
+    .etapa {
+        margin-right: 16px;
+    }
+
+    .etapa::before {
+        width: 15px;
+        margin-left: 50px;
+    }
+
+    .frete-gratis {
+        height: 25px;
+    }
+
+    @keyframes scrollText {
+        0% {
+            transform: translateX(25%);
+        }
+        100% {
+            transform: translateX(-100%);
+        }
+    }
+
+    .frete-gratis p {
+        font-size: 14px;
+    }
+}
