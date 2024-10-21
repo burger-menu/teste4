@@ -26,7 +26,7 @@ if (day === 0) {
 
 // Segunda à Sexta
 if (day >= 1 && day <= 5) {
-    if ((hour >= 8 && hour < 12) || (hour >= 14 && hour < 20)) {
+    if ((hour >= 8 && hour < 14) || (hour >= 14 && hour < 20)) {
         statusRestaurante.classList.remove("closed");
         titleStatus.textContent = "Aberto";
         statusValue = "Aberto";
